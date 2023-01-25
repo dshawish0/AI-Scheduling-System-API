@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Just.Jadwel.Core.Repository
+namespace Just.Jadwel.Core.Service
 {
-    public interface IUserRepository
+    public interface IUserService
     {
         public bool InsertUser(User user);
         public List<User> GetUser();
