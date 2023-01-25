@@ -16,7 +16,7 @@ namespace Just.Jadwel.Core.Data
 
         public int acadmicPlanId { get; set; }
         [ForeignKey("acadmicPlanId")]
-        public virtual AcademicPlan AcademicPlan { get; set; }
+        public virtual AcademicPlan academicPlan { get; set; }
 
     }
 }

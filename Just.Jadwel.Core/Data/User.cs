@@ -10,7 +10,7 @@ namespace Just.Jadwel.Core.Data
     {
         [Key]
         public int UserId { get; set; }
-        public string Fnmae { get; set; }
+        public string Fname { get; set; }
         public string Mname { get; set; }
         public string Lname { get; set; }
         public int RoleId { get; set; }
