@@ -16,7 +16,7 @@ namespace Just.Jadwel.Core.Data
         [ForeignKey("departemntId")]
         public virtual Department Department { get; set; }
 
-        public ICollection<Course> Courses { get; set; }
+        public ICollection<SuggesteStudentSchedule> SuggesteStudentSchedules { get; set; }
         public ICollection<SuggesteDepartmentSchedule> SuggesteDepartmentSchedules { get; set; }
         public ICollection<SuggesteCourse> SuggesteCourses { get; set; }
         public ICollection<AcademicPlan> AcademicPlans { get; set; }
